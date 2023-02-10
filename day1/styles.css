@@ -19,6 +19,8 @@ body {
   width: 300px;
   background-color: #b9cb42;
   border-radius: 100%;
+  position: absolute;
+  left: calc(100vw - 775px);
 }
 
 .canvas > .lhorn {
@@ -51,6 +53,7 @@ body {
   border-radius: 100%;
   position: absolute;
   top: calc(100vh - 530px);
+  left: calc(100vw - 688px);
 }
 
 .canvas .body-eye-front {
@@ -60,6 +63,7 @@ body {
   border-radius: 100%;
   position: absolute;
   top: calc(100vh - 515px);
+  left: calc(100vw - 674px);
 }
 
 .canvas .body-eye-front:before {
@@ -77,6 +81,7 @@ body {
   width: 50px;
   background-color: #376845;
   top: calc(100vh - 355px);
+  left: calc(100vw - 650px);
   border-radius: 0% 0% 150% 150%;
 }
 
