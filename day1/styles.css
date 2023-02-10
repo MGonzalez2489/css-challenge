@@ -1,0 +1,203 @@
+body {
+  background-color: #54b3a7;
+  height: 100vh;
+  width: 100vw;
+  padding: 0px;
+  margin: 0px;
+}
+
+.canvas {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.canvas > .body {
+  height: 300px;
+  width: 300px;
+  background-color: #b9cb42;
+  border-radius: 100%;
+}
+
+.canvas > .lhorn {
+  height: 30px;
+  width: 30px;
+  background-color: #d9dfcb;
+  position: absolute;
+  top: calc(100vh - 580px);
+  left: calc(100vw - 720px);
+  z-index: -2;
+  border-radius: 30% 240% 100% 100%;
+}
+
+.canvas > .rhorn {
+  height: 30px;
+  width: 30px;
+  background-color: #d9dfcb;
+  position: absolute;
+  top: calc(100vh - 580px);
+  left: calc(100vw - 565px);
+  z-index: -2;
+  border-radius: 30% 240% 100% 100%;
+  transform: scale(-1, 1);
+}
+
+.canvas .body-eye-back {
+  height: 120px;
+  width: 120px;
+  background-color: #fffffd;
+  border-radius: 100%;
+  position: absolute;
+  top: calc(100vh - 530px);
+}
+
+.canvas .body-eye-front {
+  height: 90px;
+  width: 90px;
+  background-color: #4e986b;
+  border-radius: 100%;
+  position: absolute;
+  top: calc(100vh - 515px);
+}
+
+.canvas .body-eye-front:before {
+  content: "";
+  position: absolute;
+  border-top: 10px solid transparent;
+  border-left: 20px solid #fff;
+  border-bottom: 10px solid transparent;
+  left: 56px;
+}
+
+.canvas .body-mouth {
+  position: absolute;
+  height: 15px;
+  width: 50px;
+  background-color: #376845;
+  top: calc(100vh - 355px);
+  border-radius: 0% 0% 150% 150%;
+}
+
+.canvas .l-leg {
+  position: absolute;
+  background-color: #b9cb42;
+  height: 100px;
+  width: 20px;
+  left: calc(100vw - 680px);
+  top: calc(100vh - 300px);
+}
+
+.canvas .l-leg:before {
+  content: "";
+  position: absolute;
+  top: 90px;
+  left: -20px;
+  width: 60px;
+  height: 40px;
+  border-radius: 200% 200% 100% 100%;
+  background-color: #b9cb42;
+}
+
+.canvas .r-leg {
+  position: absolute;
+  background-color: #b9cb42;
+  height: 100px;
+  width: 20px;
+  left: calc(100vw - 600px);
+  top: calc(100vh - 300px);
+}
+
+.canvas .r-leg:before {
+  content: "";
+  position: absolute;
+  top: 90px;
+  left: -20px;
+  width: 60px;
+  height: 40px;
+  border-radius: 200% 200% 100% 100%;
+  background-color: #b9cb42;
+}
+
+.canvas .l-hand {
+  position: absolute;
+  background-color: #b9cb42;
+  height: 130px;
+  width: 30px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  left: calc(100vw - 790px);
+  transform: rotate(140deg);
+}
+
+.canvas .r-hand {
+  position: absolute;
+  background-color: #b9cb42;
+  height: 130px;
+  width: 30px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  left: calc(100vw - 490px);
+  transform: rotate(220deg);
+}
+
+.canvas .nails .nail-1 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: #fff;
+  border-radius: 10px;
+  top: calc(100vh - 180px);
+  left: calc(100vw - 690px);
+}
+
+.canvas .nails .nail-2 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: #fff;
+  border-radius: 10px;
+  top: calc(100vh - 180px);
+  left: calc(100vw - 675px);
+}
+
+.canvas .nails .nail-3 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: #fff;
+  border-radius: 10px;
+  top: calc(100vh - 180px);
+  left: calc(100vw - 660px);
+}
+
+.canvas .nails .nail-4 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: #fff;
+  border-radius: 10px;
+  top: calc(100vh - 180px);
+  left: calc(100vw - 610px);
+}
+
+.canvas .nails .nail-5 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: #fff;
+  border-radius: 10px;
+  top: calc(100vh - 180px);
+  left: calc(100vw - 595px);
+}
+
+.canvas .nails .nail-6 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: #fff;
+  border-radius: 10px;
+  top: calc(100vh - 180px);
+  left: calc(100vw - 580px);
+}
